@@ -1,6 +1,7 @@
 const primaryHeader = document.querySelector('.primary-header')
 const navToggle = document.querySelector('.mobile-nav-toggle')
 const primaryNav = document.querySelector('.primary-navigation')
+const slider = new A11YSlider(document.querySelector(".slider"));
 
 navToggle.addEventListener('click', () => {
     primaryNav.hasAttribute('data-visible') ? navToggle.setAttribute('aria-expanded', false) : navToggle.setAttribute('aria-expanded', true)
