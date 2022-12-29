@@ -411,6 +411,7 @@ p[data-width="wide"] {
 
 .primary-footer__logo {
   grid-area: logo;
+  margin-inline: auto;
 }
 
 .primary-footer__copyright {
