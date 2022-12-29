@@ -293,7 +293,7 @@ p[data-width="wide"] {
   fill: var(--color-neutral-100);
 }
 
-@media (min-width: 47em) {
+/* @media (min-width: 47em) {
   .social-list {
     gap: var(--size-300);
   }
@@ -302,7 +302,7 @@ p[data-width="wide"] {
     width: var(--size-500);
     max-width: revert;
   }
-}
+} */
 
 .social-list a:is(:hover, :focus) .social-icon {
   fill: var(--color-accent-400);
@@ -317,6 +317,7 @@ p[data-width="wide"] {
 
   .social-icon {
     width: var(--size-500);
+    max-width: revert;
   }
 }
 
@@ -468,15 +469,12 @@ input:where([type="text"], [type="email"]) {
   }
 
   .primary-footer__copyright {
-    text-align: right;
+    text-align: center;
   }
+
 }
 
-/* @media (max-width: 47em) {
-  .primary-footer-wrapper > * {
-    margin-inline: auto;
-  }
-} */
+
 
 
 
